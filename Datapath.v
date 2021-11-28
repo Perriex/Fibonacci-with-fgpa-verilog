@@ -1,4 +1,4 @@
 `timescale 1ns/1ns
-module Controller();
+module Datapath();
 
 endmodule
