@@ -1,6 +1,6 @@
 `timescale 1ns/1ns
 
-module STWO();
+module STWO(d0, d1, d2, d3, a0, a1, b0, b1, CLR, clk,out);
     
     input d0, d1, d2, d3, a0, a1, b0, b1, CLR, clk;
     output reg out;
@@ -12,7 +12,7 @@ module STWO();
         .d2(d2), .d3(d3), 
         .a0(a0), .a1(a1), 
         .b0(b0), .b1(b1),
-        select );
+        .out(select) );
     
     always @(posedge clk) begin
         if (CLR == 1) begin

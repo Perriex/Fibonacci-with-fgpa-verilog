@@ -12,7 +12,7 @@ module SONE(d0, d1, d2, d3, a0, a1, CLR, b1, clk, out);
         .d2(d2), .d3(d3), 
         .a0(a0), .a1(a1), 
         .b0(CLR), .b1(b1),
-        select );
+        .out(select) );
     
     always @(posedge clk) begin
         if (CLR == 1) begin
