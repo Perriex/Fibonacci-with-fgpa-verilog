@@ -4,7 +4,7 @@ module CTWO(d0, d1, d2, d3, a0, a1, b0, b1, out);
     input d0, d1, d2, d3, a0, a1, b0, b1;
     output out;
 
-    wire s0,s1;
+    wire s0,s1; 
 
     assign s1 = a1 | b1;
     
