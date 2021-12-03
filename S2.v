@@ -14,12 +14,12 @@ module STWO(d0, d1, d2, d3, a0, a1, b0, b1, CLR, clk,out);
         .b0(b0), .b1(b1),
         .out(select) );
     
-    always @(posedge clk) begin
-        if (CLR == 1) begin
-            out = 0;
+    always @(posedge clk, posedge CLR) begin
+        if (CLR) begin
+            out <= 1'b0;
         end
         else begin
-            out = select;
+            out <= select;
         end
     end
 
