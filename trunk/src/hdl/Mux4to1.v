@@ -5,7 +5,7 @@ module Mux4to1(s, in0, in1, in2, in3, c);
 	input[n-1:0] in0, in1, in2, in3;
 	output[n-1:0] c;	
 
-	assign c = s == 2'b00 ? in0
+	assign #2 c = s == 2'b00 ? in0
 		: s == 2'b01 ? in1
 		: s == 2'b10 ? in2 
 		: in3

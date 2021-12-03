@@ -7,7 +7,7 @@ input [2:0] n;
 output lt, empty;
 output [4:0] result;
 
-wire [3:0] dout, din;
+wire [2:0] dout, din;
 
 Stack #(3) stack(clk, din, dout, push, pop, empty);
 

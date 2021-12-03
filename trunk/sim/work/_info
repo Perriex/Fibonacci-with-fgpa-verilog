@@ -1,0 +1,373 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dE:/Uni/CAD/Midterm/trunk/sim
+vAlu
+!s10a 1638545023
+Z0 !s110 1638550766
+!i10b 1
+!s100 CHZYUi`LL3>OW1o`ZiNPC3
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I>e64em=1^1ndkdV6QdAH13
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dE:/Uni/CAD/CAD3-Phase2/trunk/sim
+w1638545023
+8../src/hdl/Alu.v
+F../src/hdl/Alu.v
+!i122 0
+L0 1 17
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1638550766.000000
+Z6 !s107 ../src/hdl/Stack.v|../src/hdl/S2.v|../src/hdl/S1.v|../src/hdl/Mux4to1.v|../src/hdl/Mux.v|../src/hdl/Fib.v|../src/hdl/Datapath.v|../src/hdl/Counter.v|../src/hdl/Controller.v|../src/hdl/C2.v|../src/hdl/C1.v|../src/hdl/Alu.v|
+Z7 !s90 -reportprogress|300|+acc|-incr|-source|+define+SIM|../src/hdl/Alu.v|../src/hdl/C1.v|../src/hdl/C2.v|../src/hdl/Controller.v|../src/hdl/Counter.v|../src/hdl/Datapath.v|../src/hdl/Fib.v|../src/hdl/Mux.v|../src/hdl/Mux4to1.v|../src/hdl/S1.v|../src/hdl/S2.v|../src/hdl/Stack.v|
+!i113 1
+Z8 o+acc -source
+Z9 !s92 +acc -source +define+SIM
+Z10 tCvgOpt 0
+n@alu
+vCONE
+!s10a 1638547717
+R0
+!i10b 1
+!s100 4;KkY5K<fP12fXbjJDOUW1
+R1
+Iln0VX?:fBE46OKRJna3k02
+R2
+R3
+w1638547717
+8../src/hdl/C1.v
+F../src/hdl/C1.v
+!i122 0
+L0 3 28
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+R9
+R10
+n@c@o@n@e
+vController
+!s10a 1638549489
+R0
+!i10b 1
+!s100 Fj5_OXa`AB^c>9@_bilMS2
+R1
+IjfhnmSR^AZD[T[k1?`G[B2
+R2
+R3
+w1638549489
+8../src/hdl/Controller.v
+F../src/hdl/Controller.v
+!i122 0
+L0 4 24
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+R9
+R10
+n@controller
+vCounter
+!s10a 1638547527
+R0
+!i10b 1
+!s100 :>`C1mba>W=UZdgPWWI6T1
+R1
+I9E25:_KNS>_2H?EE[8mAk0
+R2
+R3
+w1638547527
+8../src/hdl/Counter.v
+F../src/hdl/Counter.v
+!i122 0
+L0 1 21
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+R9
+R10
+n@counter
+vCTWO
+!s10a 1638547725
+R0
+!i10b 1
+!s100 iUWdD8QG0z?BZEHI1aRQQ1
+R1
+I@3nAHb4QODJ4iGS?R7>L12
+R2
+R3
+w1638547725
+8../src/hdl/C2.v
+F../src/hdl/C2.v
+!i122 0
+L0 3 19
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+R9
+R10
+n@c@t@w@o
+vDatapath
+!s10a 1638537321
+R0
+!i10b 1
+!s100 IC308V1_MjknE02U8I<]m0
+R1
+IT`31mWU[af_AFf=X2eB152
+R2
+R3
+w1638537321
+8../src/hdl/Datapath.v
+F../src/hdl/Datapath.v
+!i122 0
+L0 2 17
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+R9
+R10
+n@datapath
+vFib
+!s10a 1638537416
+R0
+!i10b 1
+!s100 `dQ7MUY:[K@oVl]6YafPn1
+R1
+I8igjnzk?TCRQ^N;QA?dBe1
+R2
+R3
+w1638537416
+8../src/hdl/Fib.v
+F../src/hdl/Fib.v
+!i122 0
+L0 3 11
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+R9
+R10
+n@fib
+vFibTB
+R0
+!i10b 1
+!s100 YDB=G5CA3BJK6nMG3=6WN0
+R1
+I82_Nj_Y@:5?OJ?6MAVT5K2
+R2
+R3
+w1638550608
+Z11 8./tb/TB.v
+Z12 F./tb/TB.v
+!i122 1
+Z13 L0 3 33
+R4
+r1
+!s85 0
+31
+R5
+!s107 ./tb/TB.v|
+Z14 !s90 -reportprogress|300|+acc|-incr|-source|+incdir+../src/inc|+define+SIM|./tb/TB.v|
+!i113 1
+R8
+Z15 !s92 +acc -source +incdir+../src/inc +define+SIM
+R10
+n@fib@t@b
+vMux
+!s10a 1638547692
+R0
+!i10b 1
+!s100 MTh>kDQ@19KmQ39;_Nbmh2
+R1
+I[<[b3g<TJozAZ`UEa?;VO1
+R2
+R3
+w1638547692
+8../src/hdl/Mux.v
+F../src/hdl/Mux.v
+!i122 0
+L0 2 8
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+R9
+R10
+n@mux
+vMux4to1
+!s10a 1638547697
+R0
+!i10b 1
+!s100 e>6W3H48Y^bPYz;0doNcQ2
+R1
+IO5Fd:]C9lO9lFL72X@NYE0
+R2
+R3
+w1638547697
+8../src/hdl/Mux4to1.v
+F../src/hdl/Mux4to1.v
+!i122 0
+L0 2 12
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+R9
+R10
+n@mux4to1
+vSONE
+!s10a 1638294107
+R0
+!i10b 1
+!s100 2lR8RmkbRXP5lXOA[im>>3
+R1
+IHlVMM3`m0ljYGgX@NV9>G1
+R2
+R3
+w1638294107
+8../src/hdl/S1.v
+F../src/hdl/S1.v
+!i122 0
+Z16 L0 3 24
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+R9
+R10
+n@s@o@n@e
+vStack
+!s10a 1638545422
+R0
+!i10b 1
+!s100 MD_dk<V^`NLk@K2FOQbOh3
+R1
+IlB1edU]zf152WgoZiU@?_0
+R2
+R3
+w1638545422
+8../src/hdl/Stack.v
+F../src/hdl/Stack.v
+!i122 0
+L0 3 30
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+R9
+R10
+n@stack
+vSTWO
+!s10a 1638547796
+R0
+!i10b 1
+!s100 P[>goe5^HXfSB[zBC[93K1
+R1
+I0V7HF3;Ub^L`W7CAG5n`f3
+R2
+R3
+w1638547796
+8../src/hdl/S2.v
+F../src/hdl/S2.v
+!i122 0
+R16
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+R9
+R10
+n@s@t@w@o
+vTB
+!s110 1638550782
+!i10b 1
+!s100 [[C=R5G7jj;MYS`X3:j8a1
+R1
+InL=Rkmc9@ZnTFgRRajPB;3
+R2
+R3
+w1638550779
+R11
+R12
+!i122 2
+R13
+R4
+r1
+!s85 0
+31
+!s108 1638550781.000000
+Z17 !s107 ./tb/TB.v|
+R14
+!i113 1
+R8
+R15
+R10
+n@t@b

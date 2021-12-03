@@ -6,9 +6,9 @@ module CTWO(d0, d1, d2, d3, a0, a1, b0, b1, out);
 
     wire s0,s1; 
 
-    assign s1 = a1 | b1;
+    assign #0.5 s1 = a1 | b1;
     
-    assign s0 = a0 & b0;
+    assign #0.5 s0 = a0 & b0;
 
     Mux4to1 #(1) smux(.s({s1,s0})
     , .in0(d0)  
