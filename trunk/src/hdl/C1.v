@@ -1,4 +1,4 @@
-`timescale 1ns/1ns
+`timescale 1ps/1ps
 
 module CONE(a0, a1, sa, b0, b1, sb, s0, s1, f);
     input a0, a1, sa, b0, b1, sb, s0, s1;
@@ -6,7 +6,7 @@ module CONE(a0, a1, sa, b0, b1, sb, s0, s1, f);
 
     wire f1,f2,s2;
 
-    assign #0.5 s2 = s0 | s1;
+    assign #500 s2 = s0 | s1;
 
     Mux #(1) mux1(.s(sa)
     , .a(a0)
