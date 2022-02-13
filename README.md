@@ -1,4 +1,4 @@
-# fibonacci series with verilog (Fgpa)
+# Fibonacci with verilog (Fgpa)
 
 ```
 
